@@ -139,7 +139,7 @@ export default {
         };
       }
 
-      const req = await fetch("http://localhost:3002/registration", {
+      const req = await fetch("http://localhost:3001/registration", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(data),

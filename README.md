@@ -74,17 +74,17 @@ cadastro-usuario/
    cd backend
    ```
 
-2. Instale o JSON Server globalmente (se ainda não estiver instalado):
+2. Instale as dependências:
    ```sh
-   npm install -g json-server
+   npm install 
    ```
 
-3. Inicie o JSON Server:
+3. Execute o servidor de desenvolvimento:
    ```sh
-   json-server --watch db.json --port 3002
+   npm run dev
    ```
 
-4. A API estará disponível em `http://localhost:3002`.
+4. A API estará disponível em `http://localhost:3001`.
 
 ## Funcionalidades
 

@@ -43,7 +43,7 @@
     methods: {
       async fetchUsers() {
         try {
-          const response = await fetch('http://localhost:3002/registration');
+          const response = await fetch('http://localhost:3001/registration');
           if (!response.ok) {
             throw new Error('Erro ao buscar usuários');
           }
